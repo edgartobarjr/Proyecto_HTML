@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulario y Botones</title>
+</head>
+<body>
+
+<h1> Formulario y Botones <h1>
+
+<!--Formulario-->
+     <h1> Formulario </h1>
+        <form action="/formulario" method="post">
+            <label for="nombre">Nombre </label>
+            <input id="nombre" name="nombre" placeholder="Escriba aqui su nombre"/>
+       
+        <br>       
+            <label for="password">Password </label>
+            <input type="password" id="password" name="password" placeholder="Escriba aqui su password"/>
+       
+        <br>
+            <label for="terminos">Aceptar Terminos </label>
+            <input type="checkbox" id="terminos" name="terminos"/>
+
+        <br>
+        <label for ="comentario"> Comentario</label>
+        <textarea cols="50" rows="10" id="comentario" name="comentario" placeholder="Escriba su Comentario" ></textarea> <!--cols columnas, rows filas-->
+
+        <h1>Botones</h1>
+        <button type="button">Este es un boton</button> <!--boton para diferentes utilidades-->
+        <button type="reset">Este es un boton reset</button> <!--boton para reiniciar los campos-->
+        <button type="submit">Este es un boton enviar</button> <!--boton para enviar al servidor-->
+
+        </form> 
+        <br>
+</body>
+</html>	
